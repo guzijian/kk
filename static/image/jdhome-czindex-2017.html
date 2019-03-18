@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://chongzhi.jd.com/jdhome-czindex-2017.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>京东网上商城-综合网购首选（JD.COM）-正品低价、品质保障、货到付款、配送及时、放心服务、轻松购物！</title>
+  <link rel="stylesheet" type="text/css" href="./czhome.css">
+  <script type="text/javascript" src="./saved_resource(3)"></script>
+</head>
+<body>
+<div class="iframe-recharge iframe-wrap">
+  <ul class="tab-iframe" id="tab-iframe">
+    <li class="tab-item  tab-item-selected" clstag="h|keycount|head|shortcut_01a">
+      <a href="https://chongzhi.jd.com/" target="_blank">话费充值</a>
+    </li>
+    <li class="tab-item" clstag="h|keycount|head|shortcut_01b">
+      <a href="https://liuliang.jd.com/" target="_blank">流量充值</a>
+    </li>
+    <li class="tab-item" style="width: 48px;" clstag="h|keycount|head|shortcut_01c">
+      <a href="https://chongzhi.jd.com/?bussType=4" target="_blank">套餐变更</a>
+    </li>
+  </ul>
+  <div class="content-iframe">
+    <!-- //page.jd.com/virtuals/squares/1.0/html/ -->
+    <iframe data-flag="1" src="./jdhome-cz-2017.html" frameborder="0" width="160px" height="180px" scrolling="no"></iframe>
+    <iframe class="hide" data-flag="0" frameborder="0" width="160px" height="180px" scrolling="no" src="./saved_resource.html"></iframe>
+    <iframe class="hide" data-flag="0" frameborder="0" width="160px" height="180px" scrolling="no" src="./saved_resource(4).html"></iframe>
+  </div>
+</div>
+<script type="text/javascript">window.onload = function () {
+  document.domain = 'jd.com';
+  (function () {
+    var tabMenus = document.getElementById('tab-iframe').getElementsByTagName('li'), iframe = document.getElementsByTagName('iframe'), srcArr = [
+      '//chongzhi.jd.com/jdhome-cz-2017.htm',
+      '//liuliang.jd.com/jdhome-flow-2017.htm',
+      '//ctc.jd.com/jdhome-package-2017.html'
+    ];
+    for (var i = 0, leng = tabMenus.length; i < leng; i++) {
+      (function (k) {
+        tabMenus[k].onmouseover = function () {
+          for (var j = 0, len = tabMenus.length; j < len; j++) {
+            tabMenus[j].className = 'tab-item';
+            iframe[j].className = 'hide';
+          }
+          tabMenus[k].className = 'tab-item-selected';
+          var flag = iframe[k].getAttribute('data-flag');
+          if (flag == '0') {
+            iframe[k].setAttribute('src', srcArr[k]);
+            iframe[k].setAttribute('data-flag', '1');
+          }
+          iframe[k].className = '';
+        };
+      }(i));
+    }
+    function getByClass(sClass) {
+      var aResult = [];
+      var aEle = document.getElementsByTagName('div');
+      var re = new RegExp('\\b' + sClass + '\\b', 'g');
+      for (var i = 0; i < aEle.length; i++) {
+        if (aEle[i].className.search(re) != -1) {
+          aResult.push(aEle[i]);
+        }
+      }
+      return aResult;
+    }
+    ;
+  }());
+};</script>
+<script type="text/javascript" src="./wl.js.下载"></script>
+<script>seajs.use('//misc.360buyimg.com/virtuals/squares/2.0/js/clstag.js', function (CLSTAG) {
+  var tabCls = CLSTAG.czCls.czTab;
+  $('.tab-item').each(function (index, item) {
+    $(item).attr('clstag', tabCls[index]);
+  });
+});</script>
+
+</body></html>

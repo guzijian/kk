@@ -1,0 +1,41 @@
+body{
+    background-color:#f3f3e965;
+    margin:0;
+}
+#a{
+  margin: 0;
+}
+.top{
+  background: rgb(223, 223, 223);
+  margin: 0;
+  height:31px;
+}
+ul{
+  list-style-type: none;
+  display: block;
+}
+a:link{
+  text-decoration: none;
+}
+.lb1{
+  display: inline-block;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
+  font-size: 12px;
+  margin-left:calc(100% - 62%);
+  line-height: 7px;
+}
+.zt1{
+    color:#666;
+}
+.zt1:hover{
+  color: red;
+}
+.zt2{
+  color:RED;
+}
+.shux1{
+    overflow: hidden;
+    width: 1px;
+    height: 10px;
+    background-color:rgb(177, 170, 170);
+}
