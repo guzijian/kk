@@ -13,6 +13,7 @@ body{
   height:31px;
   display: block;
   position: absolute;
+  white-space: nowrap;
 }
 ul{
   list-style: none;
@@ -27,6 +28,7 @@ a:link{
   margin: 0;
   left:38%;
   top:22%;
+  
 }
 
 .lb1,li{
@@ -54,4 +56,48 @@ a:link{
 }
 .kuoh1{
   vertical-align: text-bottom!important;
+}
+.xial1{
+  margin:0;
+ 
+}
+.box1{
+  display:none;
+  position: absolute;
+  background-color:#ffffff;
+  width:282px;
+  height:163px;
+}
+.xial1:hover{
+  display: line;
+}
+.boxxx1{
+  line-height: 24px;
+}
+.sous{
+  background-color:#ffffff;
+  position: relative;
+  display: block;
+  width:400px;
+  height:35px;
+  left:85%;
+  top: 25px;
+}
+.head{
+  top:31px;
+  position: absolute;
+  width: auto;
+  height:140px;
+}
+input{
+  width:390px;
+  height:35px;
+  float: left;
+}
+button{
+  float: left;
+  background-color: red;
+  width: 50px;
+  height: 35px;
+  border-bottom-style: none;
 }
