@@ -179,7 +179,7 @@ a{
 .deng24{
     width:306px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 20px;
 }
 .deng25{
@@ -197,6 +197,178 @@ a{
 .deng3{
     width:346px;
     height: 50.6px;
-    margin-top: 0px;
-    margin-left: 0px
+    margin-top: 275px;
+    margin-left: 1px;
+    border-top:  0.5px solid #F4F4F4;
+    
 }
+.deng3 ul{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.QQ-icon{
+    position: absolute;
+    background-image: url(../image/QQ-weixin.png);
+    width: 18px;
+    height: 18px;
+    margin-left: -23px;
+    margin-top: 3px;
+}
+.pdl{
+    color: #686768;
+    font-size: 12px;
+}
+.pdl:hover{
+    text-decoration: underline;
+    color: red;
+}
+.line{
+    color: #d1d0d0;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: -18px;
+}
+.weixin-icon{
+    position: absolute;
+    background-image: url(../image/QQ-weixin1.png);
+    width: 18px;
+    height: 18px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.w{
+    
+    margin-left: 54px;
+    margin-top: 8px;
+}
+.xbt3{
+    background-image: url(../image/pwd-icons-new2.png);
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+.regist-link{
+   
+    margin-left: 125px;
+    margin-top: 0px;
+}
+.regist-link a{
+    color: #b61d1d;
+    font-size: 14px;
+}
+.regist-link a:hover{
+    text-decoration: underline;
+}
+.xtb1{
+    position: absolute;
+    background-image:url(../image/pwd-icons-new.png);
+    width:39px;
+    height:38px;
+    margin-top:3px ;
+    margin-left:2px ;
+}
+.zh{
+    width: 256px;
+    height: 40px;
+    border: 0.5 solid #BDBDBD;
+    padding-left: 50px;
+    outline: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+    color:#999999;
+}
+.xtb2{
+    position: absolute;
+    background-image: url(../image/pwd-icons-new1.png);
+    width:39px;
+    height:38px;
+    margin-top:3px ;
+    margin-left:2px ;
+}
+.mm{
+    width: 256px;
+    height: 40px;
+    border: 0.5 solid #BDBDBD;
+    padding-left: 50px;
+    outline: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+    color:#999999;
+}
+.m-link{
+    color:#686768;
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+    margin-left: 258px;
+}
+.m-link:hover{
+     text-decoration: underline;
+     color: red;
+}
+.button{
+    background-color: #F33444;
+    width: 306px;
+    height: 34px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    display: block;
+    
+  }
+  li{
+    float: left;
+  }
+  .buttom{
+      position: absolute;
+      width: 100%;
+      height: 85.2px;
+      margin-top: 575px;
+  }
+  .buttom1{
+    position: relative;
+    width: 990px;
+    height: 85.2px;
+    
+    margin:0 auto;
+  }
+  .buttom11{
+    position: relative;
+    width: 990px;
+    height: 17.6px;
+    color: #686768;
+    margin:0 auto;
+    letter-spacing: 1px;
+  }
+  .buttom11 a{
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+      color: #686768;
+      margin-left: 4px;
+      margin-right: 4px;
+      text-align: center;
+  }
+  .buttom11 a:hover{
+      color:red;
+      text-decoration: underline;
+  }
+  .buttom12{
+    position: relative;
+    width: 990px;
+    height: 17.6px;
+    color: #686768;
+    margin:20px auto;
+    text-align: center;
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+  }
+  #text{
+      height: 12px;
+  }
