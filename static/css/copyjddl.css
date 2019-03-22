@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+#logo{
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin-top: -80px;
+    margin-left: 220px;
+    float: left;
+}
+#logo b{
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    margin-top: -43px;
+    margin-left: 186px;
+    
+}
+.q-link{
+    position: absolute;
+    width: 136px;
+    height: 17.6px;
+    margin-top: -28px;
+    margin-left: 1075px;
+    float: left;
+    font-size: 12px;
+    color:#999999;
+}
+.q-link:hover{
+  color: red;
+  text-decoration: underline;
+}
+.q-link b{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin-right:7px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.body{
+    position: relative;
+    width: 100%x;
+    height: 513.5px;
+    margin-top: 90px;
+}
+.hengf{
+    position: absolute;
+    width: 100%;
+    height: 38.5px;
+    background-color:#FFF8F1;
+}
+.hengf1{
+    width: 1301.04px;
+    height: 18.5px;
+    margin: 10px auto;
+    
+}
+.hengf1 img{
+    margin-left: 240px;
+}
+.hengf1 p{
+    font-size: 12px;
+    color:#999999;
+    text-align: center;
+    margin-top: -23px;
+}
+.black{
+    color: black;
+}
+.black:hover{
+    text-decoration: underline;
+}
+.zhut{
+    position: absolute;
+    margin-top: 38px;
+    width:100%;
+    height: 513.5px;
+    background-color:#e93854;
+}
+.zhut1{
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+}
+.deng{
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 645px;
+    width: 346px;
+    height: 398.7px;
+    background-color: #ffffff;
+    
+}
+.deng1{
+    width: 346px;
+    height: 38.5px;
+    background-color: #FFF8F1;
+    margin-left: 0px;
+    margin-top:0px;
+    position: absolute;
+}
+.deng11{
+    width: 311.4px;
+    height: 18.5px;
+    margin:8px auto;
+}
+.deng11 img{
+    margin-left:0px;
+}
+.deng11 p{
+    font-size: 12px;
+    color:#999999;
+    text-align: center;
+    margin-top: -20px;
+}
+.deng2{
+    
+    width:346px;
+    height: 309.6px;
+    margin-top: 36px;
+    margin-left: -1px;
+}
+.deng20{
+    width:173px;
+    height: 18px;
+    margin-top: -263px;
+    margin-left: -1px;
+    border-right: 0.5px solid #F4F4F4;
+}
+.deng21{
+    width:173px;
+    height: 55px;
+    margin-top: 0px;
+    margin-left: 2px;
+    border-bottom: 0.5px solid #F4F4F4;
+    
+}
+.deng21 a{
+    position: absolute;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    color: #767876;
+    margin-top:13px;
+    margin-left: 50px;
+}
+.deng21 a:hover{
+    color:red;
+    font-weight: bold;
+}
+.deng22{
+    width:173px;
+    height: 55px;
+    margin-top: -55px;
+    margin-left: 172px;
+    border-bottom: 0.5px solid #F4F4F4;
+}
+.deng22 a{
+    position: absolute;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    color: red;
+    margin-top:13px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.deng23{
+    width:306px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.deng24{
+    width:306px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.deng25{
+    width:306px;
+    height: 17.6px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.deng26{
+    width:306px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.deng3{
+    width:346px;
+    height: 50.6px;
+    margin-top: 0px;
+    margin-left: 0px
+}
